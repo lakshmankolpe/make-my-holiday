@@ -1,3 +1,77 @@
-.heading{
-    font-size: 50px;
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #cfdef5;
+}
+
+.navbar-sec-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: tomato;
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo {
+    height: 80px;
+}
+
+.brand-name {
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.searchbar-container {
+    background-color: white;
+    border-radius: 30px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.searchbar {
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+}
+
+.searchbar:focus {
+    outline: none;
+}
+
+.search-icon {
+    height: 30px;
+
+
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    margin-left: 200px;
+}
+
+
+.sign-up {
+    font-size: 25px;
+}
+
+.login {
+    font-size: 25px;
+
 }
