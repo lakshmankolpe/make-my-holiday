@@ -1,7 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/*  font-family: "Kurale", serif; */
+/*  font-family: "Electrolize", sans-serif; */
+/* font-family: "Black Ops One", system-ui; */
+/*   font-family: "Russo One", sans-serif; */
+
+
 body {
     padding: 0;
     margin: 0;
-    background-color: #cfdef5;
+    /* background-color: #cfdef5; */
+    background-color: #ffffe6;
 }
 
 .navbar-sec-1 {
@@ -10,6 +20,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     background-color: #66c2ff;
+    
+
 
 }
 
@@ -78,7 +90,8 @@ body {
 
 /* main navbar section 2 */
 .nav-container{
-    background-color: #cfdef5;
+    /* background-color: #cfdef5; */
+    background-color: #ffffcc;
     width: 100%;
 
 
@@ -90,7 +103,7 @@ body {
     align-items: center;
     width:1100px ;
     justify-content: space-evenly;
-    background-color: #cfdef5;
+    background-color: #ffffcc;
     margin:0 auto;
 
 
@@ -125,7 +138,14 @@ body {
     width: 300px;
     border-radius: 20px;
     padding: 5px;
-      box-shadow: 0 0 5px 5px gray;
+    box-shadow: 0 0 5px 5px gray;
+}
+.our-services-card:hover{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #cfdef5;
+
+
 }
 .our-services-card-icon{
     height: 40px;

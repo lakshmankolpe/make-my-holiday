@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage</title>
     <link rel="stylesheet" href="./css/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
         <div class="main-navbar-container">
             <span class="navbar-items">Home</span>
             <form>
-                <select class="navbar-items  " style="background-color:  #cfdef5;">
+                <select class="navbar-items  " style="background-color: #ffffcc;">
                     <option> Places To Visit</option>
                     <option class="visit-place-item">Mumbai</option>
                     <option class="visit-place-item">Pune</option>
@@ -58,14 +59,14 @@
     </div>
     <!-- header section -->
     <div>
-        <img src="homepage4.jpg" class="header-image" />
+        <img src="head-img-1.jpg" class="header-image" />
         
 
 
         <h1 class="our-speciality-heading">OUR SPECIALITY</h1>
 
         <div class="our-services-card-container">
-            <div class="our-services-card">
+            <div class="our-services-card"data-aos="fade-right"data-aos-duration="2000">
 
                 <img src="./images/home-page-img/bus.png" class="our-services-card-icon" />
                 <u>
@@ -77,7 +78,7 @@
 
             </div>
 
-            <div class="our-services-card">
+            <div class="our-services-card"data-aos="fade-right"data-aos-duration="2000">
 
                 <img src="./images/home-page-img/near-by-places.png" class="our-services-card-icon" />
                 <u>
@@ -88,7 +89,7 @@
 
             </div>
 
-            <div class="our-services-card">
+            <div class="our-services-card"data-aos="fade-left"data-aos-duration="2000">
 
                 <img src="./images/home-page-img/weather.png" class="our-services-card-icon" />
                 <u>
@@ -99,7 +100,7 @@
 
             </div>
 
-            <div class="our-services-card">
+            <div class="our-services-card"data-aos="fade-left"data-aos-duration="2000">
 
                 <img src="./images/home-page-img/location.png" class="our-services-card-icon" />
                 <u>
@@ -110,8 +111,12 @@
 
             </div>
         </div>
+        
 
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 
 </html>
