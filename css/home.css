@@ -288,6 +288,12 @@ body {
     padding-left: 7px;
 
 }
+.best-places-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px;
+}
 .best-places-visit-cards{
     width: 500px;
     height: 620px;
@@ -299,6 +305,7 @@ body {
 }
 .best-places-visit-img{
     width: 500px;
+    height: 300px;
 }
 .best-place-visit-card-heading{
     font-size: 25px;
@@ -312,12 +319,12 @@ body {
 .best-place-visit-btn{
     font-size: 20px;
     font-weight: bold;
-    padding:5px 15px;
+    padding:5px 20px;
     background-color: black;
     color: white;
     
     border-radius: 15px;
     position: absolute;
-    right: 10px;
+    right: 30px;
     bottom:10px;
 }
