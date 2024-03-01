@@ -1,12 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>homepage</title>
     <link rel="stylesheet" href="./css/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1 class="heading">you r in home page</h1>
+    <!-- navbar section 1 -->
+    <div class="navbar-sec-1">
+        <div class="logo-container">
+            <img src="./images/logo.png" class="logo" />
+            <span class="brand-name">Make My Holiday </span>
+        </div>
+        <div class="searchbar-container">
+            <input type="text" placeholder="Search" class="searchbar">
+            <img src="./images/search-icon.png" class="search-icon" />
+        </div>
+        <div class="login-container">
+            <a href="./pages/sign-up.html" class="sign-up">Sign-up</a>
+            <span class="login">/</span>
+            <a href="./pages/log-in.html" class="login">Login</a>
+        </div>
+
+    </div>
+    <!-- main navbar section 2 -->
+    <div class="nav-container">
+        <div class="main-navbar-container">
+            <span class="navbar-items">Home</span>
+            <form>
+                <select class="navbar-items  " style="background-color: #ffffcc;">
+                    <option> Places To Visit</option>
+                    <option class="visit-place-item">Mumbai</option>
+                    <option class="visit-place-item">Pune</option>
+                    <option class="visit-place-item">Nagpur</option>
+                    <option class="visit-place-item">Mahabaleshwar</option>
+                    <option class="visit-place-item">Shirdi</option>
+                    <option class="visit-place-item">Ratnagiri</option>
+                    <option class="visit-place-item">Raigad</option>
+                    <option class="visit-place-item">Sambhajinagar</option>
+                    <option class="visit-place-item">Kolhapur</option>
+                    <option class="visit-place-item">Satara</option>
+                    <option class="visit-place-item">Panvel</option>
+                    <option class="visit-place-item">Amravati</option>
+                    <option class="visit-place-item">Agra</option>
+                    <option class="visit-place-item">Nashik</option>
+                    <option class="visit-place-item">Bhiwandi</option>
+                </select>
+            </form>
+            <a href="./pages/blog.html" class="navbar-items">Blog</a>
+            <a href="./pages/about-us.html" class="navbar-items">About Us</a>
+            <a href="./pages/contact-us.html" class="navbar-items">Contact us</a>
+
+        </div>
+    </div>
+    <!-- header section -->
+    <div class="header-container">
+        <img src="head-img-1.jpg" class="header-image" />
+        <h1 class="header-heading" data-aos="zoom-in-up" data-aos-duration="1000"> MAHARASHTRA TOURISM</h1>
+
+    </div>
+
+    <h1 class="our-speciality-heading">OUR SPECIALITY</h1>
+
+    <div class="our-services-card-container">
+        <div class="our-services-card" data-aos="fade-right" data-aos-duration="2000">
+
+            <img src="./images/home-page-img/bus.png" class="our-services-card-icon" />
+            <u>
+                <h3 class="services-card-heading">Best advice to reach destination.</h3>
+            </u>
+            <p class="services-card-desc">we provide a best advice to reach destination.also provide a proper guide
+                for
+                tourist.</p>
+
+        </div>
+
+        <div class="our-services-card" data-aos="fade-right" data-aos-duration="2000">
+
+            <img src="./images/home-page-img/near-by-places.png" class="our-services-card-icon" />
+            <u>
+                <h3 class="services-card-heading">Suggest best near by places.</h3>
+            </u>
+            <p class="services-card-desc">we suggest a best near by places to visit and explore from your
+                destination.</p>
+
+
+        </div>
+
+        <div class="our-services-card" data-aos="fade-left" data-aos-duration="2000">
+
+            <img src="./images/home-page-img/weather.png" class="our-services-card-icon" />
+            <u>
+                <h3 class="services-card-heading">Best time to visit.</h3>
+            </u>
+            <p class="services-card-desc">We provide best time to visit a perticular destinations for your happy
+                journey. </p>
+
+
+        </div>
+
+        <div class="our-services-card" data-aos="fade-left" data-aos-duration="2000">
+
+            <img src="./images/home-page-img/location.png" class="our-services-card-icon" />
+            <u>
+                <h3 class="services-card-heading">We provide map and distance.</h3>
+            </u>
+            <p class="services-card-desc"> We provide a proper map and distance to explore more near by places.</p>
+
+
+        </div>
+    </div>
+    <!-- list of best places to visit  -->
+
+    <h1 class="best-place-heading">
+        List Of Best Places To Visit In Maharashtra.
+    </h1>
+    <div class="best-place-card">
+        <p class="best-place-desc">Maharashtra state is very well known for its growing beauty of nature and hills as
+            well as the high standard of living of cities like Mumbai, Pune, Nasik and others.</p>
+        <p class="best-place-desc">The beauty of Maharashtra lies in the nature calling short getaways or the long tours
+            of Maharashtra.</p>
+        <p class="best-place-desc">The Marathas army historical places and forts along with the serene coastal cities.
+        </p>
+
+        <img src="./images/home-page-img/top-10-places.jpg" />
+
+        <p class="best-place-desc">Take a hike or an adventure vacation in Maharashtra with unseen beautiful resorts and places, as well as the
+            wonderful romantic holidays in Maharashtra.</p>
+
+        <p class="best-place-desc">The state is filled with lovely highlands, valleys, lakes, zoos, sanctuaries, forts, beaches, resorts, towns
+            and camping sites to enjoy each travel experience at Maharashtra.</p>
+
+        <p class="best-place-desc">Here is List of best places to visit in Maharashtra</p>
+
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
