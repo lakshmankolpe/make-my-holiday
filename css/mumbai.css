@@ -1,14 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-.body{
+body{
     padding: 0;
     margin: 0;
     background-color: #ffffe6;
 }
 
+.navbar-sec-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #66c2ff;
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo {
+    height: 80px;
+}
+
+.brand-name {
+    margin-left: 20px;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.searchbar-container {
+    background-color: white;
+    border-radius: 30px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.searchbar {
+    font-size: 22px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+}
+
+.searchbar:focus {
+    outline: none;
+}
+
+.search-icon {
+    height: 25px;
+
+
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    margin-left: 200px;
+   
+}
+
+
+.sign-up {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.login {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/*CITY IMAGE*/
 .city-image-1{
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     margin-bottom: 50px;
 }
