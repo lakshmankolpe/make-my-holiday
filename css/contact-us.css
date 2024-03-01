@@ -1,66 +1,69 @@
 body {
    padding: 0;
    margin: 0;
-   background-color: #cfdef5;
+   background-color: #ffffe6; 
 }
 
 .contact-main-container {
    background-color: white;
    width: 900px;
-   height: 500px;
-   margin: 0 auto;
+   height: 600px;
+   margin: 50px auto;
+   padding: 10px;
+   box-shadow: 0 0 10px 1px black;
+   border-radius: 10px;
+   
+   
+   
+}
+.contact-main-container2{
    display: flex;
-   padding: 30px;
-   
-   
+   justify-content: center;
 }
 .contact-heading {
    text-align: center;
    font-size: 45px;
-   height: 50px;
-   width: 960px;
-   margin: 0px auto;
-   background-color: white;
-   padding-top: 40px;
-   padding-bottom: 30px;
+   height: 70px;
+    margin: 0px auto;
+    font-family: "Russo One", sans-serif;
+
 }
 .contact-sub-container1 {
    height: 600px;
    width: 400px;
 }
+
 .icon{
    height: 30px;
-   
-   
 }
+
 .address-container {
   height: 120px;
    display: flex;
+   
+   margin: 10px;
+   align-items: center;
+   
 
 }
 
 .address-text {
    font-size: 18px;
    color: #595959;
-align-items: center;
-padding-top: 10px ;
+   margin: 20px;
 
 
 }
 
 .socialmedia-icon {
-   height: 20px;
-   margin: 0px 10px;
-   background-color: #6b9ae1;
-   padding: 5px;
-   border: solid black 1px;
-   border-radius: 5px;
+   height: 40px;
+   margin: 10px;
 }
 
 .contact-sub-container2 {
    height: 600px;
    width: 400px;
-   margin-left: 20px;
+   
 }
 
 .massage-repaly-text {
@@ -79,7 +82,7 @@ background-color:white;
 
 }
 .send-btn {
-   background-color: #000000;
+   background-color: #66c2ff; 
    padding: 10px 35px;
    margin-top: 20px;
    margin-left: 50px;
