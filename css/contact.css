@@ -12,6 +12,7 @@ body {
    display: flex;
    padding: 30px;
    
+   
 }
 .contact-heading {
    text-align: center;
@@ -27,21 +28,15 @@ body {
    height: 600px;
    width: 400px;
 }
-.icon {
-   height: 20px;
-   background-color: #6b9ae1;
-   border: solid #2764be 2px;
-   padding: 10px;
+.icon{
+   height: 30px;
+   
+   
 }
 .address-container {
   height: 120px;
    display: flex;
-}
-.text {
-   font-size: 20px;
-   padding-left:20px;
-   height: 20px;
-   width: 1px;
+
 }
 
 .address-text {
