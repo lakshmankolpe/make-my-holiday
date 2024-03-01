@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 /*  font-family: "Kurale", serif; */
@@ -74,7 +73,7 @@ body {
     justify-content: space-between;
     width: 160px;
     margin-left: 200px;
-   
+
 }
 
 
@@ -93,125 +92,199 @@ body {
 }
 
 /* main navbar section 2 */
-.nav-container{
+.nav-container {
     /* background-color: #cfdef5; */
     background-color: #ffffcc;
     width: 100%;
 
 
 }
-.main-navbar-container{
+
+.main-navbar-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    width:1100px ;
+    width: 1100px;
     justify-content: space-evenly;
     background-color: #ffffcc;
-    margin:0 auto;
+    margin: 0 auto;
 
 
 }
-.navbar-items{
+
+.navbar-items {
     font-size: 20px;
     padding: 15px;
     border: none;
     text-decoration: none;
     color: black;
-       
+
 }
-.visit-place-item{
+
+.visit-place-item {
     background-color: white;
 }
-.header-container{
+
+.header-container {
     position: relative;
 }
-.header-image{
+
+.header-image {
     height: 100vh;
     width: 100%;
 }
-.header-heading{
+
+.header-heading {
     font-size: 45px;
     font-family: "Russo One", sans-serif;
     position: absolute;
     top: 320px;
     left: 170px;
-    color:rgb(32, 32, 32);
+    color: rgb(32, 32, 32);
 
 
 }
-.our-speciality-heading{
+
+.our-speciality-heading {
     font-size: 40px;
     text-align: center;
     margin: 40px;
     margin-top: 70px;
     margin-bottom: 70px;
-    background-color: rgb(236, 133, 115);
-    border-radius:15px;
+    background-color: tomato;
+    border-radius: 15px;
     /* font-family: "Electrolize", sans-serif; */
-   
+
     /* font-family: "Russo One", sans-serif; */
     font-family: "Black Ops One", system-ui;
-    
+
 }
-.our-services-card-container{
+
+.our-services-card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-   
-    
+
+
 }
-.our-services-card{
+
+.our-services-card {
     height: 180px;
-    background-color:white;
+    background-color: white;
     width: 300px;
     border-radius: 20px;
     padding: 5px;
     box-shadow: 0 0 5px 5px gray;
 }
-.our-services-card:hover{
+
+.our-services-card:hover {
     padding: 10px;
     cursor: pointer;
     background-color: #cfdef5;
 
 
 }
-.our-services-card-icon{
+
+.our-services-card-icon {
     height: 40px;
     display: block;
     margin-right: auto;
-    margin-left: auto; 
+    margin-left: auto;
 
 }
-.services-card-heading{
+
+.services-card-heading {
     font-size: 20px;
     text-align: center;
 }
-.services-card-desc{
+
+.services-card-desc {
     text-align: center;
 }
-.best-place-heading{
+
+.best-place-heading {
     font-size: 40px;
     font-family: "Russo One", sans-serif;
-   margin-top: 50px;
-    color:rgb(32, 32, 32);
-   text-align: center;
-   
+    /* font-family: "Kurale", serif; */
+    margin-top: 50px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+
     border-bottom: 1px solid gray;
-    
+
 }
-.best-place-card{
+
+.best-place-card {
     width: 850px;
-    background-color:white;
+    background-color: white;
     padding: 20px;
-    font-family: "Kurale", serif ;
+    font-family: "Kurale", serif;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    
+
+
 }
-.best-place-desc{
+
+.best-place-desc {
     font-size: 22px;
-    
+
+}
+
+/* popular-city */
+.popular-city-main-heading {
+    font-size: 30px;
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+    background-color: tomato;
+}
+
+.poppular-city-card-container {
+
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+
+}
+
+.popular-city-img {
+
+    width: 240px;
+    height:240px ;
+
+}
+
+.popular-city-card {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px gray;
+
+}
+
+.popular-city-img:hover {
+
+    cursor: pointer;
+    width: 260px;
+}
+
+.popular-city-card-heading {
+    font-size: 20px;
+    font-family: "Black Ops One", system-ui;
+    padding: 10px;
+}
+
+.popular-card-desc {
+    padding-bottom: 7px;
+    padding-left: 7px;
+
 }
