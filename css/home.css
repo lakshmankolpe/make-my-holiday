@@ -1,7 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/*  font-family: "Kurale", serif; */
+/*  font-family: "Electrolize", sans-serif; */
+/* font-family: "Black Ops One", system-ui; */
+/*   font-family: "Russo One", sans-serif; */
+
+
 body {
     padding: 0;
     margin: 0;
-    background-color: #cfdef5;
+    /* background-color: #cfdef5; */
+    background-color: #ffffe6;
 }
 
 .navbar-sec-1 {
@@ -9,7 +19,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    background-color: tomato;
+    background-color: #66c2ff;
 
 }
 
@@ -41,10 +51,10 @@ body {
 }
 
 .searchbar {
-    font-size: 25px;
+    font-size: 22px;
     border-radius: 30px;
     border: none;
-    padding: 8px;
+    padding: 10px;
 }
 
 .searchbar:focus {
@@ -64,21 +74,28 @@ body {
     justify-content: space-between;
     width: 160px;
     margin-left: 200px;
+   
 }
 
 
 .sign-up {
     font-size: 25px;
+    text-decoration: none;
+    color: black;
+
 }
 
 .login {
     font-size: 25px;
+    text-decoration: none;
+    color: black;
 
 }
 
 /* main navbar section 2 */
 .nav-container{
-    background-color: #cfdef5;
+    /* background-color: #cfdef5; */
+    background-color: #ffffcc;
     width: 100%;
 
 
@@ -90,7 +107,7 @@ body {
     align-items: center;
     width:1100px ;
     justify-content: space-evenly;
-    background-color: #cfdef5;
+    background-color: #ffffcc;
     margin:0 auto;
 
 
@@ -99,8 +116,102 @@ body {
     font-size: 20px;
     padding: 15px;
     border: none;
+    text-decoration: none;
+    color: black;
        
 }
 .visit-place-item{
     background-color: white;
+}
+.header-container{
+    position: relative;
+}
+.header-image{
+    height: 100vh;
+    width: 100%;
+}
+.header-heading{
+    font-size: 45px;
+    font-family: "Russo One", sans-serif;
+    position: absolute;
+    top: 320px;
+    left: 170px;
+    color:rgb(32, 32, 32);
+
+
+}
+.our-speciality-heading{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: rgb(236, 133, 115);
+    border-radius:15px;
+    /* font-family: "Electrolize", sans-serif; */
+   
+    /* font-family: "Russo One", sans-serif; */
+    font-family: "Black Ops One", system-ui;
+    
+}
+.our-services-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    
+}
+.our-services-card{
+    height: 180px;
+    background-color:white;
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 0 5px 5px gray;
+}
+.our-services-card:hover{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #cfdef5;
+
+
+}
+.our-services-card-icon{
+    height: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+.services-card-heading{
+    font-size: 20px;
+    text-align: center;
+}
+.services-card-desc{
+    text-align: center;
+}
+.best-place-heading{
+    font-size: 40px;
+    font-family: "Russo One", sans-serif;
+   margin-top: 50px;
+    color:rgb(32, 32, 32);
+   text-align: center;
+   
+    border-bottom: 1px solid gray;
+    
+}
+.best-place-card{
+    width: 850px;
+    background-color:white;
+    padding: 20px;
+    font-family: "Kurale", serif ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.best-place-desc{
+    font-size: 22px;
+    
 }

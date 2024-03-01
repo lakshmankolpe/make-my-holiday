@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffe6;
+}
+
+.city-image-1{
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.information-about-city-container{
+    text-align: center;
+}
+
+.information-about-city{
+    font-size: 20px;
+    margin: 0 150px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: "Kurale", serif ;
+}
+
