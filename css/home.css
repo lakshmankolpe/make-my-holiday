@@ -189,13 +189,23 @@ body {
 
 
 }
+.services-card-icon-container{
+   margin: 5px;
+    width: 60px;
+    height: 60px;
 
-.our-services-card-icon {
-    height: 40px;
+    border-radius: 100%;
     display: block;
     margin-right: auto;
-    margin-left: auto;
+     margin-left: auto; 
+     box-shadow: 0 0 5px 1px gray;
 
+   
+}
+.our-services-card-icon {
+    height: 40px;
+    
+     padding: 10px;
 }
 
 .services-card-heading {
@@ -318,9 +328,9 @@ body {
 }
 .best-places-visit-cards:hover{
     padding: 15px;
-    box-shadow: 0 0 10px 5px #62aee4;
+    box-shadow: 0 0 8px 3px #62aee4;
     border-radius: 20px;
-    cursor: pointer;
+   
     transition: 0.3s;
 
 }
@@ -339,11 +349,11 @@ body {
 }
 .best-place-visit-btn{
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding:5px 20px;
     background-color: black;
     color: white;
-    border-radius: 15px;
+    border-radius: 50px;
     position: absolute;
     right: 30px;
     bottom:10px;
@@ -352,6 +362,7 @@ body {
     padding:7px 25px;
     background-color:white;
     color: black;
+    cursor: pointer;
 }
 .best-time-heading{
     position: absolute;
