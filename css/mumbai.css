@@ -176,7 +176,9 @@ body{
 }
 
 .info-about-place:hover{
+    padding: 5px;
     background-color: #cfdef5;
+    cursor: pointer;
 }
 
 .place-info{
