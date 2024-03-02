@@ -11,6 +11,8 @@ body {
     margin: 0;
     /* background-color: #cfdef5; */
     background-color: #ffffe6;
+    
+    
 }
 
 .navbar-sec-1 {
@@ -26,7 +28,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .logo {
@@ -94,9 +95,12 @@ body {
 /* main navbar section 2 */
 .nav-container {
     /* background-color: #cfdef5; */
-    background-color: #ffffcc;
     width: 100%;
-
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffbf80;
+   
 
 }
 
@@ -107,23 +111,23 @@ body {
     align-items: center;
     width: 1100px;
     justify-content: space-evenly;
-    background-color: #ffffcc;
     margin: 0 auto;
-
-
 }
 
 .navbar-items {
-    font-size: 20px;
+    font-size: 22px;
     padding: 15px;
     border: none;
     text-decoration: none;
     color: black;
+    font-weight:bold;
+    font-family: "Electrolize", sans-serif;
+    background-color:#ffbf80;
 
 }
 
 .visit-place-item {
-    background-color: white;
+    background-color:white;
 }
 
 .header-container {
