@@ -11,7 +11,7 @@ body {
     margin: 0;
     /* background-color: #cfdef5; */
     background-color: #ffffe6;
-    
+      
     
 }
 
@@ -55,6 +55,7 @@ body {
     border-radius: 30px;
     border: none;
     padding: 10px;
+    
 }
 
 .searchbar:focus {
@@ -217,10 +218,10 @@ body {
     text-align: center;
 }
 
-.best-place-heading {
+.explore-maha-heading {
     font-size: 40px;
     font-family: "Russo One", sans-serif;
-    /* font-family: "Kurale", serif; */
+   
     margin-top: 50px;
     color: rgb(32, 32, 32);
     text-align: center;
@@ -229,7 +230,7 @@ body {
 
 }
 
-.best-place-card {
+.explore-maha-card{
     width: 850px;
     background-color: white;
     padding: 20px;
@@ -242,7 +243,7 @@ body {
 
 }
 
-.best-place-desc {
+.explore-maha-desc {
     font-size: 22px;
 
 }
@@ -289,7 +290,7 @@ body {
     flex-direction: column;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px 5px gray;
+    box-shadow: 0 0 8px 3px gray;
 
 }
 
@@ -309,6 +310,17 @@ body {
 .popular-card-desc {
     padding-bottom: 7px;
     padding-left: 7px;
+
+}
+.best-place-heading{
+    font-size: 40px;
+    font-family: "Russo One", sans-serif;
+   
+    margin-top: 50px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+
+    border-bottom: 1px solid gray;
 
 }
 .best-places-card-container{
@@ -385,6 +397,8 @@ body {
     height: 250px;
     width:350px ;
     border-radius:12px;
+    display: block;
+    margin: 0 auto;
     
 }
 .top-attraction-container{
@@ -397,17 +411,21 @@ body {
     
 }
 .top-attraction-card{
-
+    width: 360px;
     padding: 10px;
     border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #c7dceb;
+    margin: 20px;
 }
 .top-attraction-card:hover{
-    background-color: #c7dceb;
+    background-color:#c7dceb;
     cursor: pointer;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 15px;
     box-shadow: 0 0 10px 3px #7dbfee ;
     transition:0.6s;
+    margin-top: -5px ;
 }
 .top-attraction-name{
     font-size: 20px;
@@ -431,8 +449,6 @@ body {
     margin-top: 30px;
 
 }
-
-
 
 .footer-quick-links {
 
@@ -465,4 +481,52 @@ body {
         font-size: 26px;
         margin: 10px;
 
+    }
+    /* media querry */
+
+    @media screen and (min-width: 993px) and (max-width: 1200px)
+    {
+       .brand-name{
+        font-size: 35px;
+
+       }
+.searchbar-container {
+    padding-right: 20px;
+    margin-left: 30px;
+    
+}
+.searchbar{
+    font-size: 20px;
+    width: 200px;
+}
+
+.login-container {
+   
+    margin-left: 40px;
+}
+
+.main-navbar-container {
+    width: 1000px; 
+    
+}
+.header-heading {
+   font-size: 40px;
+    top: 320px;
+    left:120px;
+    
+}
+
+.our-speciality-heading {
+    font-size: 38px;
+  
+}
+.our-services-card-container {
+    width: 800px;
+    height: 500px;
+    margin:0 auto;
+
+}
+  .popular-city-main-heading{
+    font-size: 38px;
+  }
     }
