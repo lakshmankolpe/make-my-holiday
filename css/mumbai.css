@@ -128,7 +128,7 @@ body{
 
 .information-about-city{
     font-size: 20px;
-    margin: 0 150px;
+    margin: 0 300px;
     text-align: justify;
     margin-bottom: 20px;
     font-family: "Kurale", serif ;
@@ -140,6 +140,8 @@ body{
     text-align: center;
     background-color: rgb(234, 190, 190);
     font-family: "Black Ops One", system-ui;
+    margin: 0 50px;
+    border-radius: 20px;
 }
 
 .place-heading{
@@ -171,6 +173,10 @@ body{
     border-radius: 20px;
     box-shadow: 0 0 5px 5px gray;
     font-family: "Kurale", serif ;
+}
+
+.info-about-place:hover{
+    background-color: #cfdef5;
 }
 
 .place-info{
