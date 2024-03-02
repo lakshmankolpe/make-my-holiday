@@ -327,3 +327,8 @@ body {
     right: 30px;
     bottom:10px;
 }
+.best-time-heading{
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+}
