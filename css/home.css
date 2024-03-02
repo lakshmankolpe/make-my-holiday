@@ -235,10 +235,16 @@ body {
 
 /* popular-city */
 .popular-city-main-heading {
-    font-size: 30px;
-    font-family: "Russo One", sans-serif;
+    font-size: 40px;
     text-align: center;
+    margin: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     background-color: tomato;
+    border-radius: 15px;
+    font-family: "Black Ops One", system-ui;
+     
+
 }
 
 .poppular-city-card-container {
@@ -292,7 +298,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 60px 0;
+    margin: 40px 0;
 }
 .best-places-visit-cards{
     width: 500px;
@@ -331,6 +337,18 @@ body {
     position: absolute;
     bottom:20px;
     left: 20px;
+}
+/* top attraction */
+.top-attraction-heading{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: tomato;
+    border-radius: 15px;
+    font-family: "Black Ops One", system-ui;
+     
 }
 .top-attraction-image{
     height: 250px;
