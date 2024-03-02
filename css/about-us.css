@@ -10,42 +10,30 @@ body {
 
 .about-heading {
   font-size: 40px;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   background-color: tomato;
   border-radius: 30px;
+
   font-family: "Black Ops One", system-ui;
 }
 
 .about-heading-container {
   text-align: center;
-
 }
-
-
 .main-container {
-  height: 500px;
+  height: 600px;
   width: 1500px;
-  margin: 0px auto;
-
-
-
 }
-
 .text-image-main-container {
   display: flex;
-
 }
-
-
 .text-container {
   height: 500px;
   display: flex;
   align-items: center;
   margin: 20px;
-
 }
-
 .about-information-text {
   padding: 10px;
   font-size: 20px;
@@ -57,28 +45,14 @@ body {
   width: 700px;
   padding: 30px;
   box-shadow: 0 0 10px 1px rgb(37, 35, 35);
-
-
 }
-
-
-
-/*image-container  */
-
-
-
-
 .image-container {
   height: 500px;
   width: 650px;
   display: flex;
   align-items: center;
   margin: 20px;
-
-
-
 }
-
 .image {
   height: 410px;
   width: 650px;
@@ -86,35 +60,25 @@ body {
   border: solid #ffffb3 1px;
   box-shadow: 5px 5px 10px rgb(37, 35, 35);
 }
-
-
-
-/* --our-team-section-- */
-
 .our-team-container {
   height: 500px;
   width: 1400px;
   margin: 0px auto;
-
-
 }
-
 .our-team-heading {
   text-align: center;
   margin-top: 100px;
   font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   background-color: tomato;
   border-radius: 30px;
   font-family: "Black Ops One", system-ui;
 }
-
 .main-card-container {
   display: flex;
   justify-content: center;
-
-
 }
-
 .member-card {
   height: 300px;
   width: 300px;
@@ -125,17 +89,13 @@ body {
   text-align: center;
   background-color: white;
   box-shadow: 0px 0px 10px rgb(37, 35, 35);
-
 }
-
 .member-card:hover {
   background-color: #c7dceb;
   margin-top: 30px;
   box-shadow: 0px 0px 20px rgb(37, 35, 35);
   transition: 0.5s !important;
 }
-
-
 .team-member-photos {
   height: 150px;
   width: 155px;
@@ -160,7 +120,6 @@ body {
 .member-name-working {
   font-size: 20px;
   font-family: "Kurale", serif;
-
 }
 
 .icon-container {
@@ -427,7 +386,6 @@ body {
     height: 1000px;
     width: 500px;
     margin: 0px auto;
-    background-color: green;
   }
 
   .text-image-main-container {
@@ -443,7 +401,6 @@ body {
     display: flex;
     align-items: center;
     margin: 10px;
-    background-color: blue;
   }
 
   .about-information-text {
@@ -463,7 +420,6 @@ body {
     width: 500px;
     margin: 30px;
     justify-content: center;
-    background-color: blue;
   }
 
   .image {
@@ -479,7 +435,6 @@ body {
     width: 500px;
     margin: 0px auto;
     align-items: center;
-    background-color: yellow;
   }
 
   .our-team-heading {
