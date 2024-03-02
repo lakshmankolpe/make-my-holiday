@@ -207,6 +207,56 @@ body{
     color: rgb(91, 25, 25);
 }
 
+/*----Most famous Caves in Mumbai-----*/
+
+.mumbai-caves-place-heading{
+    font-size: 30px;
+    font-family: "Electrolize", sans-serif;
+    text-align: center;
+    color: rgb(91, 25, 25);
+}
+
+.mumbai-cave-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mumbai-cave-card{
+    background-color: #ffffcc;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px gray;
+    height: 600px;
+    width: 400px;
+}
+
+.mumbai-cave-card:hover{
+    background-color: #cbd0d3;
+
+}
+.cave-heading{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(91, 25, 25);
+    font-family: "Electrolize", sans-serif; */
+}
+
+.mumbai-cave-image{
+    height: 200px;
+    width: 400px;
+   
+}
+
+.mumbai-cave-info{
+    font-size: 15px;
+    color: rgb(91, 25, 25);
+    margin: 5px;
+    font-family: "Kurale", serif ;
+}
+
+.time-location-fee-mumbai-cave{
+    color: rgb(91, 25, 25);
+}
 
 
 
