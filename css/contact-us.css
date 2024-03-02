@@ -31,6 +31,7 @@ body {
 .contact-sub-container1 {
    height: 600px;
    width: 400px;
+   
 }
 
 .icon{
@@ -40,19 +41,19 @@ body {
 .address-container {
   height: 120px;
    display: flex;
-   
    margin: 10px;
    align-items: center;
-   
+}
 
+.anchor-href-url{
+   text-decoration: none;
 }
 
 .address-text {
    font-size: 18px;
    color: #595959;
    margin: 20px;
-
-
+   text-decoration: none;
 }
 
 .socialmedia-icon {
