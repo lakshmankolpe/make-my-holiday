@@ -157,7 +157,7 @@ body {
     margin-top: 70px;
     margin-bottom: 70px;
     background-color: tomato;
-    border-radius: 15px;
+    border-radius: 30px;
     /* font-family: "Electrolize", sans-serif; */
 
     /* font-family: "Russo One", sans-serif; */
@@ -170,7 +170,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-
 }
 
 .our-services-card {
@@ -179,13 +178,14 @@ body {
     width: 300px;
     border-radius: 20px;
     padding: 5px;
-    box-shadow: 0 0 5px 5px gray;
+    box-shadow: 0 0 10px 3px gray;
 }
 
 .our-services-card:hover {
     padding: 10px;
     cursor: pointer;
     background-color: #cfdef5;
+    transition: 0.4s !important;
 
 
 }
@@ -245,13 +245,13 @@ body {
     margin-top: 70px;
     margin-bottom: 70px;
     background-color: tomato;
-    border-radius: 15px;
+    border-radius: 30px;
     font-family: "Black Ops One", system-ui;
      
 
 }
 
-.poppular-city-card-container {
+.popular-city-card-container {
 
     width: 1200px;
     display: flex;
@@ -259,6 +259,7 @@ body {
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: space-evenly;
+   
 
 
 }
@@ -267,11 +268,12 @@ body {
 
     width: 240px;
     height:240px ;
+    border-radius: 10px;
 
 }
 
 .popular-city-card {
-    height: 300px;
+   
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -285,6 +287,7 @@ body {
 
     cursor: pointer;
     width: 260px;
+    transition: 0.5s;
 }
 
 .popular-city-card-heading {
@@ -302,16 +305,24 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 40px 0;
+    margin: 60px 0;
 }
 .best-places-visit-cards{
     width: 500px;
     height: 620px;
-    box-shadow: 0 0 10px 5px #62aee4; ;
+   
     background-color: #c7dceb;
     padding: 10px;
     border-radius: 15px;
     position: relative;
+}
+.best-places-visit-cards:hover{
+    padding: 15px;
+    box-shadow: 0 0 10px 5px #62aee4;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
 }
 .best-places-visit-img{
     width: 500px;
@@ -337,6 +348,11 @@ body {
     right: 30px;
     bottom:10px;
 }
+.best-place-visit-btn:hover{
+    padding:7px 25px;
+    background-color:white;
+    color: black;
+}
 .best-time-heading{
     position: absolute;
     bottom:20px;
@@ -350,7 +366,7 @@ body {
     margin-top: 70px;
     margin-bottom: 70px;
     background-color: tomato;
-    border-radius: 15px;
+    border-radius: 30px;
     font-family: "Black Ops One", system-ui;
      
 }
@@ -394,7 +410,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: rgb(24, 22, 22);
     color: white;
 }
 
@@ -414,7 +430,7 @@ body {
     color: white;
     margin: 10px;
     padding: 20px 20px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -424,7 +440,7 @@ body {
     color: white;
     margin: 10px;
     padding: 20px 20px;
-    text-align: center;
+    text-align: left;
 }
 .footer-contact {
     height: 180px;
@@ -432,7 +448,7 @@ body {
     color: white;
     margin: 10px;
     padding: 20px 20px;
-    text-align: center;
+    text-align: left;
 }
     .footer-icon{
         font-size: 26px;
