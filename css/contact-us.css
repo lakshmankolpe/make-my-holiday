@@ -24,10 +24,11 @@ body {
 
 .contact-heading {
    text-align: center;
-   font-size: 45px;
-   height: 20px;
+   font-size: 40px;
    margin: 25px auto;
-   font-family: "Russo One", sans-serif;
+   background-color: tomato;
+   border-radius: 30px;
+   font-family: "Black Ops One", system-ui;
 
 }
 
