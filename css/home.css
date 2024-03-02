@@ -312,6 +312,8 @@ body {
     padding-left: 7px;
 
 }
+/* best places to visit */
+
 .best-place-heading{
     font-size: 40px;
     font-family: "Russo One", sans-serif;
@@ -328,6 +330,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 60px 0;
+    
 }
 .best-places-visit-cards{
     width: 500px;
@@ -393,21 +396,23 @@ body {
     font-family: "Black Ops One", system-ui;
      
 }
+
+.top-attraction-container{
+    width: 1200px;
+    margin: 80px auto;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-evenly;
+    
+    
+}
 .top-attraction-image{
     height: 250px;
     width:350px ;
     border-radius:12px;
     display: block;
     margin: 0 auto;
-    
-}
-.top-attraction-container{
-    width: 1200px;
-    margin: 80px auto;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
-    
     
 }
 .top-attraction-card{
@@ -521,7 +526,7 @@ body {
   
 }
 .our-services-card-container {
-    width: 800px;
+    width: 1000px;
     height: 500px;
     margin:0 auto;
 
@@ -529,4 +534,56 @@ body {
   .popular-city-main-heading{
     font-size: 38px;
   }
+  .popular-city-card-container {
+width: 1000px;
+    
+  }
+  .best-places-visit-cards{
+    width: 400px;
+    height: 520px;
+   
+}
+.best-places-visit-img{
+    width: 400px;
+    height: 230px;
+}
+
+.best-place-visit-card-heading{
+    font-size: 22px;
+    
+}
+.best-places-card-desc{
+    font-size: 17px;
+    
+}
+.best-place-visit-btn{
+    font-size: 18px;
+    right: 20px;
+   
+}
+
+.top-attraction-heading{
+    font-size: 37px;
+}
+/*  */
+
+
+.top-attraction-container{
+    width: 1000px;
+    margin: 60px auto;
+    flex-wrap: nowrap; 
+    
+}
+.top-attraction-image{
+    height: 200px;
+    width:280px ;
+
+    
+}
+.top-attraction-card{
+    width: 290px;
+    margin: 13px;
+}
     }
+
+    
