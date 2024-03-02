@@ -12,42 +12,33 @@ body {
    padding: 10px;
    box-shadow: 0 0 10px 1px black;
    border-radius: 10px;
-
-
-
 }
-
 .contact-main-container2 {
    display: flex;
    justify-content: center;
 }
-
 .contact-heading {
    text-align: center;
-   font-size: 45px;
-   height: 20px;
-   margin: 25px auto;
-   font-family: "Russo One", sans-serif;
-
+   font-size: 40px;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   background-color: tomato;
+   border-radius: 30px;
+   font-family: "Black Ops One", system-ui;
 }
-
 .contact-sub-container1 {
    height: 600px;
    width: 400px;
-
 }
-
 .icon {
    height: 30px;
 }
-
 .address-container {
    height: 120px;
    display: flex;
    margin: 10px;
    align-items: center;
 }
-
 .anchor-href-url {
    text-decoration: none;
 }
@@ -67,23 +58,18 @@ body {
 .contact-sub-container2 {
    height: 600px;
    width: 400px;
-
 }
-
 .massage-repaly-text {
    padding-top: 63px;
 }
-
 .input-box {
    border: none;
    width: 300px;
    font-size: 20px;
    background-color: white;
 }
-
 .label-text {
    font-size: 20px;
-
 }
 
 .send-btn {
