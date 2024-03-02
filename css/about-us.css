@@ -1,60 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-body{
-   padding: 0px;
-   margin: 0px;
-   background-color: #ffffe6; 
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffe6;
 }
 
 
-.about-heading{
+.about-heading {
   font-size: 40px;
   height: 50px;
   width: 300px;
-  
+
   margin: 0 auto;
   margin-top: 50px;
   font-family: "Russo One", sans-serif;
 }
-.about-heading-container{
+
+.about-heading-container {
   text-align: center;
 }
 
-.main-container{
+.main-container {
   height: 500px;
   width: 1500px;
   margin: 0px auto;
-  display: flex; 
+  display: flex;
   margin: 0px;
   align-items: center;
   justify-content: center;
-  
-}
-
-
-.text-container1{
-height: 500px;
-display: flex;
-align-items: center;
-
-margin: 20px;
 
 }
 
-.about-information-text{
-  padding:10px;
+
+.text-container {
+  height: 500px;
+  display: flex;
+  align-items: center;
+
+  margin: 20px;
+
+}
+
+.about-information-text {
+  padding: 10px;
   font-size: 20px;
   font-family: "Kurale", serif;
   border: solid #ffffb3 1px;
-  background-color: white; 
+  background-color: white;
   border-radius: 10px;
   height: 350px;
   width: 700px;
   padding: 30px;
-  box-shadow:  0  0 10px 1px  rgb(37, 35, 35);
-  
-   
+  box-shadow: 0 0 10px 1px rgb(37, 35, 35);
+
+
 }
 
 
@@ -64,20 +65,22 @@ margin: 20px;
 
 
 
-.image-container2{
+.image-container {
   height: 500px;
   width: 650px;
   display: flex;
   align-items: center;
   margin: 20px;
-  
-  
+
+
+
 }
-.image1{
+
+.image {
   height: 410px;
   width: 650px;
   border-radius: 10px;
-  border: solid #ffffb3  1px;
+  border: solid #ffffb3 1px;
   box-shadow: 5px 5px 10px rgb(37, 35, 35);
 }
 
@@ -85,81 +88,85 @@ margin: 20px;
 
 /* --our-team-section-- */
 
-.our-team-container{
+.our-team-container {
   height: 500px;
-  width:1400px;
+  width: 1400px;
   margin: 0px auto;
-  
-  
+
+
 }
-.our-team-heading{
+
+.our-team-heading {
   text-align: center;
   margin-top: 100px;
   font-size: 30px;
   font-family: "Russo One", sans-serif;
 }
-.card-container{
-  display: flex;
-  justify-content:center ;
 
-  
+.main-card-container {
+  display: flex;
+  justify-content: center;
+
+
 }
 
-.card1{
+.member-card {
   height: 300px;
   width: 300px;
   margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
   position: relative;
   text-align: center;
   background-color: white;
   box-shadow: 0px 0px 10px rgb(37, 35, 35);
-  
-  
-  
-  
+
 }
-.team-member-photos{
+
+.member-card:hover {
+  background-color: #c7dceb;
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px rgb(37, 35, 35);
+  transition: 0.5s !important;
+}
+
+
+.team-member-photos {
   height: 150px;
   width: 155px;
   border-radius: 100px;
   border: solid black 1px;
   position: absolute;
-  left: 70px;
-  
-
- 
+  left: 80px;
 }
-.member-name{
+
+.member-name {
   padding-top: 140px;
   color: red;
   font-family: "Russo One", sans-serif;
 }
 
-.member-name2{
-  padding-top:140px;
+.member-name2 {
+  padding-top: 140px;
   color: red;
   font-family: "Russo One", sans-serif;
 }
-.member-name-working{
+
+.member-name-working {
   font-size: 20px;
   font-family: "Kurale", serif;
-  
+
 }
-.icon-container{
+
+.icon-container {
   margin-top: 20px;
-  
-  
-  
 }
-.icon{
+
+.icon {
   height: 35px;
   margin: 5px;
-  
-
 }
-.github-icon{
+
+.github-icon {
   height: 45px;
-
-  
-
 }
