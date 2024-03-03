@@ -11,8 +11,6 @@ body {
     margin: 0;
     /* background-color: #cfdef5; */
     background-color: #ffffe6;
-   
-
 
 }
 
@@ -484,8 +482,12 @@ body {
     margin: 10px;
     padding: 20px 20px;
     text-align: left;
+   
 }
-
+.footer-items{
+    text-decoration: none;
+    color: white;
+}
 
 .footer-useful-link {
     height: 180px;
