@@ -22,6 +22,7 @@ body {
    font-size: 40px;
    margin-top: 70px;
    margin-bottom: 70px;
+   margin: 40px;
    background-color: tomato;
    border-radius: 30px;
    font-family: "Black Ops One", system-ui;
