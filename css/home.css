@@ -1024,6 +1024,38 @@ body {
     bottom: 15px;
   
 }
+/*  */
+.top-attraction-heading {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    
+}
 
+.top-attraction-container {
+    width: 600px;
+    margin: 20px auto;
+    
+     flex-direction:column;
+    
+    align-items: center;
+
+}
+
+.top-attraction-image {
+    height: 250px;
+    width: 380px;
+  
+}
+
+.top-attraction-card {
+    width: 380px;
+    margin: 10px;
+}
+
+.top-attraction-card:hover {
+    
+    margin-top: -1px;
+}
 
 }
