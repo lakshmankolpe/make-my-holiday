@@ -183,7 +183,6 @@ body {
     background-color: #cfdef5;
     transition: 0.4s !important;
 
-
 }
 
 .services-card-icon-container {
@@ -715,7 +714,7 @@ body {
 
     }
 
-    
+
 
     .popular-city-main-heading {
         font-size: 34px;
@@ -724,338 +723,520 @@ body {
     }
 
     .popular-city-card-container {
-        width: 700px; 
-        
-    
+        width: 700px;
+
+
     }
 
     .popular-city-img {
 
         width: 210px;
         height: 210px;
-       
+
 
     }
 
     .popular-city-card {
         margin: 20px;
-        
+
     }
-.popular-city-img:hover {
-    width: 220px;
-   
-}
-/*  */
 
-.best-place-heading {
-    font-size: 34px;
-    margin-top: 30px;
-}
+    .popular-city-img:hover {
+        width: 220px;
 
- .best-places-card-container {
-    margin: 10px 0;
-    
+    }
 
-} 
+    /*  */
 
-.best-places-visit-cards {
-    width: 450px;
-    height: 580px;
-    margin: 10px;
-}
-.best-places-visit-img {
-    width: 450px;
-    height: 300px;
-}
+    .best-place-heading {
+        font-size: 34px;
+        margin-top: 30px;
+    }
 
-.best-place-visit-card-heading {
-    font-size: 22px;
-    font-family: "Electrolize", sans-serif;
-    padding-left:10px;
-}
+    .best-places-card-container {
+        margin: 10px 0;
 
-.best-places-card-desc {
-    font-size: 17px;
-}
-/*  */
-.top-attraction-heading {
-    font-size: 34px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    
-}
 
-.top-attraction-container {
-    width: 600px;
-    margin: 10px auto;
-   
-    
-}
+    }
 
-.top-attraction-image {
-    height: 200px;
-    width: 220px;
-   
-}
+    .best-places-visit-cards {
+        width: 450px;
+        height: 580px;
+        margin: 10px;
+    }
 
-.top-attraction-card {
-    width: 320px;
-    margin: 10px;
-}
+    .best-places-visit-img {
+        width: 450px;
+        height: 300px;
+    }
+
+    .best-place-visit-card-heading {
+        font-size: 22px;
+        font-family: "Electrolize", sans-serif;
+        padding-left: 10px;
+    }
+
+    .best-places-card-desc {
+        font-size: 17px;
+    }
+
+    /*  */
+    .top-attraction-heading {
+        font-size: 34px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+    }
+
+    .top-attraction-container {
+        width: 600px;
+        margin: 10px auto;
+
+
+    }
+
+    .top-attraction-image {
+        height: 200px;
+        width: 220px;
+
+    }
+
+    .top-attraction-card {
+        width: 320px;
+        margin: 10px;
+    }
 }
 
 /* media query from 600px 768px */
 
-@media screen and (min-width: 600px) and (max-width: 768px){
+@media screen and (min-width: 600px) and (max-width: 768px) {
 
-.logo-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logo {
+        height: 65px;
+    }
+
+    .brand-name {
+        margin-left: 5px;
+        font-size: 34px;
+    }
+
+    .searchbar-container {
+        padding-right: 20px;
+        margin-left: 10px;
+        position: relative;
+        border: 1px solid gray;
+
+    }
+
+    .searchbar {
+        font-size: 18px;
+        width: 150px;
+        padding: 8px;
+
+    }
+
+    .search-icon {
+        height: 22px;
+        position: absolute;
+        left: 150px;
+
+    }
+
+    .login-container {
+
+        width: 120px;
+        margin-left: 10px;
+
+    }
+
+    .sign-up {
+        font-size: 18px;
+    }
+
+    .login {
+        font-size: 18px;
+    }
+
+    .nav-container {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: #ffbf80;
+    }
+
+    .main-navbar-container {
+
+        width: 100%;
+    }
+
+    .navbar-items {
+        font-size: 18px;
+    }
+
+
+    .header-image {
+        height: 80vh;
+    }
+
+    .header-heading {
+        font-size: 30px;
+        top: 250px;
+        left: 70px;
+    }
+
+    .our-speciality-heading {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+
+    .our-services-card {
+        height: 170px;
+        margin: 15px;
+
+        width: 270px;
+    }
+
+    .services-card-icon-container {
+
+        width: 45px;
+        height: 45px;
+
+        margin-right: auto;
+        margin-left: auto;
+        padding: 4px;
+
+    }
+
+    .our-services-card-icon {
+        height: 27px;
+
+    }
+
+    .services-card-heading {
+        font-size: 18px;
+
+    }
+
+    .explore-maha-heading {
+        font-size: 30px;
+        margin-top: 30px;
+
+    }
+
+    .explore-maha-card {
+        width: 550px;
+        border-radius: 15px;
+
+    }
+
+    .explore-maha-desc {
+        font-size: 18px;
+    }
+
+    .popular-city-main-heading {
+        font-size: 30px;
+
+        margin: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+
+    .popular-city-card-container {
+        width: 600px;
+    }
+
+    .popular-city-img {
+
+        width: 220px;
+        height: 220px;
+        border-radius: 10px;
+    }
+
+    .popular-city-img:hover {
+
+        width: 230px;
+    }
+
+    .best-place-heading {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .best-places-card-container {
+        margin: 10px 0;
+    }
+
+    .best-places-visit-cards {
+        width: 470px;
+        height: 540px;
+        padding: 8px;
+        margin: 10px;
+
+    }
+
+    .best-places-visit-cards:hover {
+        padding: 10px;
+        box-shadow: 0 0 8px 2px #62aee4;
+    }
+
+    .best-places-visit-img {
+        width: 470px;
+        height: 260px;
+    }
+
+    .best-place-visit-card-heading {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .best-places-card-desc {
+        font-size: 18px;
+
+    }
+
+    .best-place-visit-btn {
+        font-size: 18px;
+
+    }
+
+    .best-time-heading {
+        bottom: 15px;
+
+    }
+
+    .top-attraction-heading {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .top-attraction-container {
+        width: 600px;
+        margin: 20px auto;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .top-attraction-image {
+        height: 250px;
+        width: 380px;
+
+    }
+
+    .top-attraction-card {
+        width: 380px;
+        margin: 10px;
+    }
+
+    .top-attraction-card:hover {
+
+        margin-top: -1px;
+    }
+
 }
 
-.logo {
-    height: 65px;
-}
+/* media query max width upto 600px */
+@media screen and (max-width: 600px) {
 
-.brand-name {
-    margin-left:5px;
-    font-size: 34px;
-}
+    .navbar-sec-1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #66c2ff;
 
-.searchbar-container {
-    padding-right: 20px;
-    margin-left: 10px;
-    position: relative;
-    border: 1px solid gray;
-    
-}
+    }
 
-.searchbar {
-    font-size: 18px;
-    width: 150px;
-    padding: 8px;
-     
-}
+    .logo {
+        height: 60px;
+    }
 
-.search-icon {
-    height: 22px;
-    position: absolute;
-    left: 150px;
-
-}
-
-.login-container {
-    
-    width: 120px;
-    margin-left: 10px;
-
-}
-.sign-up {
-    font-size: 18px;
-}
-
-.login {
-    font-size: 18px;
-}
-
-.nav-container {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: #ffbf80;
-}
-
-.main-navbar-container {
-    
-    width:100%;  
-}
-
-.navbar-items {
-    font-size: 18px;
-}
+    .brand-name {
+        margin-left: 20px;
+        font-size: 30px;
+    }
 
 
-.header-image {
-    height: 80vh;
-}
+    .searchbar {
+        font-size: 17px;
+        width: 100px;
 
-.header-heading {
-    font-size: 30px;
-    top: 250px;
-    left: 70px;
+    }
 
-}
+    .search-icon {
+        height: 20px;
+    }
 
+    .login-container {
 
-.our-speciality-heading {
-    font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+        margin: 0 auto;
+        width: 120px;
 
-}
+    }
 
+    .sign-up {
+        font-size: 20px;
 
-.our-services-card {
-    height: 170px;
-    margin: 15px;
-    
-    width: 270px;
-    
-}
+    }
 
-.services-card-icon-container {
-    
-    width: 45px;
-    height: 45px;
-    
-    margin-right: auto;
-    margin-left: auto;
-    padding: 4px;
-    
-}
+    .login {
+        font-size: 20px;
 
-.our-services-card-icon {
-    height: 27px;
-    
-}
+    }
 
-.services-card-heading {
-    font-size: 18px;
-   
-}
+    .nav-container {
+        width: 100%;
+    }
 
+    .main-navbar-container {
+        width: 100%;
+    }
 
-.explore-maha-heading {
-    font-size: 30px;
-    margin-top: 30px;
+    .navbar-items {
+        font-size: 18px;
+        padding: 8px;
+    }
 
-}
+    .header-image {
+        height: 80vh;
 
-.explore-maha-card {
-    width: 550px;
-    border-radius: 15px;
- 
-}
+    }
 
-.explore-maha-desc {
-    font-size: 18px;
-}
+    .header-heading {
+        font-size: 27px;
+        top: 260px;
+        left: 120px;
 
+    }
 
-.popular-city-main-heading {
-    font-size: 30px;
-    
-    margin: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-}
+    .our-speciality-heading {
+        font-size: 27px;
+        margin-top: 40px;
+        margin-bottom: 40px;
 
-.popular-city-card-container {
+    }
 
-    width: 600px;
-    
-}
+    .our-services-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
 
-.popular-city-img {
+    }
 
-    width: 220px;
-    height: 220px;
-    border-radius: 10px;
+    .our-services-card {
+        height: 190px;
+        width: 330px;
+        margin: 15px;
+    }
 
-}
+    .services-card-icon-container {
+        width: 50px;
+        height: 50px;
 
-.popular-city-img:hover {
+    }
 
-    width: 230px;
-    
-}
+    .our-services-card-icon {
+        height: 30px;
+    }
 
+    .explore-maha-heading {
+        font-size: 27px;
 
-.best-place-heading {
-    font-size: 30px;
-    margin-top: 30px;
-  
-}
+    }
 
-.best-places-card-container {
-    margin: 10px 0;
-}
+    .explore-maha-card {
+        width: 80%;
 
-.best-places-visit-cards {
-    width: 470px;
-    height: 540px;
-    padding: 8px;
-    margin: 10px;
-  
-}
+    }
 
+    .explore-maha-desc {
+        font-size: 16px;
+    }
 
-.best-places-visit-cards:hover {
-    padding: 10px;
-    box-shadow: 0 0 8px 2px #62aee4;
+    .explore-card-image {
+        width: 90%;
+        display: block;
+        margin: 2px auto;
+        border-radius: 10px;
+    }
 
-}
+    .popular-city-main-heading {
+        font-size: 27px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
-.best-places-visit-img {
-    width: 470px;
-   height: 260px;
-}
+    .popular-city-card-container {
 
-.best-place-visit-card-heading {
-    font-size: 20px;
-    margin-left: 10px;
- 
-}
+        width: 100%;
+    }
 
-.best-places-card-desc {
-    font-size: 18px;
-   
-}
+    .best-place-heading {
+        font-size: 27px;
+    }
 
-.best-place-visit-btn {
-    font-size: 18px;
-  
-}
+    .best-places-card-container {
 
-.best-time-heading {
-    bottom: 15px;
-  
-}
-/*  */
-.top-attraction-heading {
-    font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    
-}
+        margin: 10px 0;
 
-.top-attraction-container {
-    width: 600px;
-    margin: 20px auto;
-    
-     flex-direction:column;
-    
-    align-items: center;
+    }
 
-}
+    .best-places-visit-cards {
+        width: 85%;
+        height: 540px;
+        margin: 10px;
+    }
 
-.top-attraction-image {
-    height: 250px;
-    width: 380px;
-  
-}
+    .best-places-visit-img {
+        width: 100%;
+        height: 260px;
+        border-radius: 10px;
+    }
 
-.top-attraction-card {
-    width: 380px;
-    margin: 10px;
-}
+    .best-place-visit-card-heading {
+        font-size: 20px;
+        margin-left: 15px;
+    }
 
-.top-attraction-card:hover {
-    
-    margin-top: -1px;
-}
+    .best-places-card-desc {
+        font-size: 18px;
+    }
+
+    .best-place-visit-btn {
+        font-size: 18px;
+    }
+
+    .top-attraction-heading {
+        font-size: 27px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .top-attraction-container {
+        width: 100%;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+
+    .top-attraction-card {
+        width: 360px;
+        margin: 10px auto;
+    }
+
+    .top-attraction-card:hover {
+        margin-top: -1px;
+    }
 
 }
