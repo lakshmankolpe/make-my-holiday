@@ -11,8 +11,23 @@ body {
     margin: 0;
     /* background-color: #cfdef5; */
     background-color: #ffffe6;
+   
 
 
+}
+
+/* temporary button */
+.explore-visit-btn{
+    font-size:20px;
+    padding:5px 20px;
+    background-color: tomato;
+    border-radius: 30px;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    
 }
 
 .navbar-sec-1 {
