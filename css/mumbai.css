@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #ffffe6;
+    background-color: #ddddc2;
 }
 
 .navbar-sec-1 {
@@ -10,7 +10,6 @@ body{
     flex-wrap: wrap;
     align-items: center;
     background-color: #66c2ff;
-
 }
 
 .logo-container {
@@ -113,7 +112,8 @@ body{
 }
 
 
-/*----Mumbai city section----*/
+/*----- city section----*/
+
 .city-image-1{
     height: 80vh;
     width: 100%;
@@ -152,8 +152,8 @@ body{
     text-align: center;
     font-size: 40px;
     font-family: "Russo One", sans-serif;
-    margin: 50px 30px;
     border-radius: 30px;
+    margin: 50px 30px;
     background-color: tomato;
 } 
 
@@ -161,8 +161,7 @@ body{
     text-align: center;
     font-size: 30px;
     margin: 25px 30px;
-    border-radius: 20px;
-
+    font-family: "Russo One", sans-serif;
 }
 
 .historic-place-container{
@@ -216,9 +215,9 @@ body{
 
 .temple-heading{
     font-size: 40px;
-   
     text-align: center;
     border-radius: 30px;
+    margin: 50px 30px;
     background-color: tomato;
     font-family: "Black Ops One", system-ui;
     
@@ -242,15 +241,13 @@ body{
 }
 
 .place-image{
-    height: 70vh;
-    width: 80vh;
+    width: 500px;  
     border-radius: 20px;
     box-shadow: 0 0 5px 5px gray;
 }
 
 .info-about-place{
-    height: 70vh;
-    width: 80vh;
+    width: 600px;
     border-radius: 20px;
     box-shadow: 0 0 5px 5px gray;
     font-family: "Kurale", serif ;
@@ -268,23 +265,7 @@ body{
     text-align: justify;
 }
 
-.icon-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    margin-left: 30px;
-}
 
-.icons{
-    display: block;
-    height: 25px;
-    margin: 2px;
-}
-
-.icon-detail{
-    margin-left: 5px;
-}
-    
 
 /*---- Caves Section-----*/
 
@@ -437,7 +418,6 @@ body{
 
 .must-visit-place-heading{
     font-size: 40px;
-    margin: 50px 30px;
     text-align: center;
     font-family: "Black Ops One", system-ui;
     border-top: 2px solid gray;
