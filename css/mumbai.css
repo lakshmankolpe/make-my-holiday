@@ -172,15 +172,19 @@ body{
     border-radius: 30px;
 }
 
+.historic-img{
+    display: flex;
+    justify-content: center;
+}
+
 .historic-place-image{
-    height: 300px;
-    margin: 0 220px ;
+    height: 300px;    
     box-shadow: 0 0 5px 5px grey;
 }
 
 .historic-place-info{
     font-size: 20px;
-    margin: 0 150px;
+    margin: 0 130px;
     text-align: justify;
     font-family: "Kurale", serif ;
     color: rgb(85, 59, 40);
@@ -195,7 +199,6 @@ body{
     flex-direction: row;
     justify-content: start;
     margin-left: 30px;
-    color: rgb(91, 25, 25);
 }
 
 .icons{
@@ -206,7 +209,6 @@ body{
 
 .icon-detail{
     margin-left: 5px;
-    color: rgb(91, 25, 25);
 }
 
 
@@ -214,8 +216,8 @@ body{
 
 .temple-heading{
     font-size: 40px;
+   
     text-align: center;
-    margin: 0 50px;
     border-radius: 30px;
     background-color: tomato;
     font-family: "Black Ops One", system-ui;
@@ -227,6 +229,8 @@ body{
     text-align: center;
     margin-top: 70px;
     margin-bottom: 50px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
     font-family: "Black Ops One", system-ui;
 }
 
@@ -234,18 +238,18 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .place-image{
-    height: 60vh;
+    height: 70vh;
     width: 80vh;
     border-radius: 20px;
     box-shadow: 0 0 5px 5px gray;
 }
 
 .info-about-place{
-    height: 60vh;
+    height: 70vh;
     width: 80vh;
     border-radius: 20px;
     box-shadow: 0 0 5px 5px gray;
@@ -261,7 +265,6 @@ body{
 .place-info{
     margin: 20px 20px 5px 20px;
     font-size: 15px;
-    color: rgb(91, 25, 25);
     text-align: justify;
 }
 
@@ -270,7 +273,6 @@ body{
     flex-direction: row;
     justify-content: start;
     margin-left: 30px;
-    color: rgb(91, 25, 25);
 }
 
 .icons{
@@ -281,7 +283,6 @@ body{
 
 .icon-detail{
     margin-left: 5px;
-    color: rgb(91, 25, 25);
 }
     
 
@@ -313,7 +314,6 @@ body{
 .cave-heading{
     font-size: 20px;
     text-align: center;
-    color: rgb(91, 25, 25);
     font-family: "Electrolize", sans-serif; 
 }
 
@@ -326,26 +326,19 @@ body{
 
 .cave-info{
     font-size: 15px;
-    color: rgb(91, 25, 25);
     margin: 10px;
     font-family: "Kurale", serif ;
 }
 
-.time-location-fee-cave{
-    color: rgb(91, 25, 25);
-}
-
-
 /*-----Streetfood Section------*/
 
 .streetfood-place-heading{
-    text-align: center;
-    font-size: 40px;
-    font-family: "Russo One", sans-serif;
     margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Black Ops One", system-ui;
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
-    
 } 
 
 .street-food-heading{
@@ -353,18 +346,21 @@ body{
     font-size: 20px;
     margin: 25px 30px;
     border-radius: 20px;
+    font-family: "Electrolize", sans-serif; 
 
 }
 
 .street-food-main-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around; 
+    width: 90%;
+    margin: 0 auto;
 }
 
 .street-food-container{
-    margin:50px 150px;
-    padding: 10px 0;
+    margin:50px 140px;
+    padding:  10px ;
     background-color: #cfdef5;
     border-radius: 20px;
 }
@@ -406,6 +402,7 @@ body{
     width: 390px;
     background-color:#c7dceb;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .fort-card-container:hover{
@@ -438,6 +435,8 @@ body{
     margin: 50px 30px;
     text-align: center;
     font-family: "Black Ops One", system-ui;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 .must-visit-place-container{
