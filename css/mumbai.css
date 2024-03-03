@@ -297,6 +297,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 10px;
 }
 
 .cave-card{
@@ -320,8 +321,12 @@ body{
 .cave-image{
     height: 200px;
     width: 380px;
-    margin-left: 10px;
-   
+    margin-left: 10px;   
+}
+
+.time-location-fee-cave{
+    font-family: "Kurale", serif ;
+    margin: 10px;
 }
 
 .cave-info{
@@ -455,8 +460,8 @@ body{
 }
 
 .must-visit-place-name{
-    margin-left: 80px;
-    text-align: center;
+    
+    margin-left: 20px;
     font-size: 20px;
     font-family: "Kurale", serif;
 }
