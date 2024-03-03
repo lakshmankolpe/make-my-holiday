@@ -788,20 +788,21 @@ body {
 /*  */
 .top-attraction-heading {
     font-size: 34px;
-   
     margin-top: 50px;
+    margin-bottom: 30px;
     
 }
 
 .top-attraction-container {
     width: 600px;
     margin: 10px auto;
+   
     
 }
 
 .top-attraction-image {
-    height: 220px;
-    width: 320px;
+    height: 200px;
+    width: 220px;
    
 }
 
@@ -809,6 +810,78 @@ body {
     width: 320px;
     margin: 10px;
 }
+}
 
+/* media query from 600px 768px */
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    height: 65px;
+}
+
+.brand-name {
+    margin-left:5px;
+    font-size: 34px;
+}
+
+.searchbar-container {
+    padding-right: 20px;
+    margin-left: 10px;
+    position: relative;
+    border: 1px solid gray;
+    
+}
+
+.searchbar {
+    font-size: 18px;
+    width: 150px;
+    padding: 8px;
+     
+}
+
+.search-icon {
+    height: 22px;
+    position: absolute;
+    left: 150px;
+
+}
+
+.login-container {
+    
+    width: 120px;
+    margin-left: 10px;
+
+}
+.sign-up {
+    font-size: 18px;
+}
+
+.login {
+    font-size: 18px;
+}
+
+.nav-container {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffbf80;
+}
+
+.main-navbar-container {
+    
+    width:100%;  
+}
+
+.navbar-items {
+    font-size: 18px;
+}
 
 }
