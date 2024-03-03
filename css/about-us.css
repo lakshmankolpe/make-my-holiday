@@ -9,13 +9,13 @@ body {
 
 
 .about-heading {
+  background-color: tomato;
+  text-align:center;
   font-size: 40px;
   margin: 40px;
   margin-top: 70px;
-  margin-bottom: 50px;
-  background-color: tomato;
+  margin-bottom: 70px;
   border-radius: 30px;
-  font-family: "Black Ops One", system-ui;
 }
 
 .about-heading-container {
@@ -74,14 +74,13 @@ body {
 }
 
 .our-team-heading {
-  text-align: center;
+  background-color: tomato;
+  text-align:center;
   font-size: 40px;
   margin: 40px;
   margin-top: 70px;
   margin-bottom: 70px;
-  background-color: tomato;
   border-radius: 30px;
-  font-family: "Black Ops One", system-ui;
 }
 
 .main-card-container {

@@ -8,7 +8,7 @@ body{
 }
 .blog-page-heading{
     background-color: tomato;
-    text-align: center;
+    text-align:center;
     font-size: 40px;
     margin: 40px;
     margin-top: 70px;
@@ -18,10 +18,10 @@ body{
 .first-div-videos-main-container{
     display: flex;
     justify-content: center;
-    height: 450px;
-    width: 1350px;
     margin: 0 auto;
-   margin-bottom: 20px;
+    height: 450px;
+    width: 1300px;
+    margin-bottom: 10px;
 
 }
 .embed-videos{
@@ -32,11 +32,12 @@ body{
 .video-discription-text{
     font-size: 14px;
     font-family: "Kurale", serif;
+    
 }
 .first-div-videos-container{
     height: 410px;
     width: 400px;
-    margin: 20px;   
+    margin: 20px; 
 }
 .btn{
     padding: 5px 12px;
