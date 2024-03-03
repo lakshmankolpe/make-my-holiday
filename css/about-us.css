@@ -1,116 +1,468 @@
-body{
-    padding: 0px;
-    margin: 0px;
-    background-color: #cfdef5;
-}
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-.about-heading{
-   font-size: 40px;
-   height: 50px;
-   width: 300px;
-   
-   margin: 0 auto;
-   margin-top: 50px;
-}
-
-.main-container{
-   height: 450px;
-   width: 1400px;
-   margin: 0px auto;
-   display: flex;
-
-   
-   
-
-   
-}
-.text-container1{
-height: 500px;
-width: 800px;
-
-
-}
-
-.about-information-text{
-   padding: 80px;
-   font-size: 18px;
-   
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffe6;
 }
 
 
-
-/*image-container  */
-
-
-
-
-.image-container2{
-   height: 500px;
-   width: 500px;
-   
-}
-.image1{
-   height: 300px;
-   margin: 120px 20px;
-   border-radius: 10px;
-   border: solid black 1px;
-   box-shadow: 5px 5px 10px rgb(37, 35, 35);
+.about-heading {
+  font-size: 40px;
+  margin: 40px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: tomato;
+  border-radius: 30px;
+  font-family: "Black Ops One", system-ui;
 }
 
-
-
-/* --our-team-section-- */
-
-.our-team-container{
-   height: 500px;
-   width:1400px;
-   margin: 0px auto;
-   background-color: tomato
-   
-}
-.our-team-heading{
-   text-align: center;
-   margin-top: 100px;
-}
-.heading-paragraph-container{
-   height: 100px;
-   display: flex;
-   justify-content: center;
-}
-.our-team-heading-paragraph{
-height: 100px;
-width: 800px;
-text-align: center;
-
-}
-.card-container{
-   display: flex;
-   background-color: antiquewhite;
-   justify-content:center ;
-
-   
+.about-heading-container {
+  text-align: center;
 }
 
-.card1{
-   height: 300px;
-   width: 300px;
-   background-color: aqua;
-   margin: 50px;
-   position: relative;
-   
-   
-   
+.main-container {
+  height: 600px;
+  width: 1500px;
 }
-.team-member-photos{
-   background-color: tomato;
-   height: 80px;
-   border-radius: 100%;
-   
-   border: solid black 1px;
-   position: absolute;
-   
-   left: 110px;
-   
 
-  
+.text-image-main-container {
+  display: flex;
+}
+
+.text-container {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.about-information-text {
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Kurale", serif;
+  border: solid #ffffb3 1px;
+  background-color: white;
+  border-radius: 10px;
+  height: 350px;
+  width: 700px;
+  padding: 30px;
+  box-shadow: 0 0 10px 1px rgb(37, 35, 35);
+}
+
+.image-container {
+  height: 500px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.image {
+  height: 410px;
+  width: 650px;
+  border-radius: 10px;
+  border: solid #ffffb3 1px;
+  box-shadow: 5px 5px 10px rgb(37, 35, 35);
+}
+
+.our-team-container {
+  height: 500px;
+  width: 1400px;
+  margin: 0px auto;
+}
+
+.our-team-heading {
+  text-align: center;
+  font-size: 40px;
+  margin: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: tomato;
+  border-radius: 30px;
+  font-family: "Black Ops One", system-ui;
+}
+
+.main-card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.member-card {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(37, 35, 35);
+}
+
+.member-card:hover {
+  background-color: #c7dceb;
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px rgb(37, 35, 35);
+  transition: 0.5s !important;
+}
+
+.team-member-photos {
+  height: 150px;
+  width: 155px;
+  border-radius: 100px;
+  border: solid black 1px;
+  position: absolute;
+  left: 80px;
+}
+
+.member-name {
+  padding-top: 140px;
+  color: red;
+  font-family: "Black Ops One", system-ui;
+}
+
+.member-name2 {
+  padding-top: 140px;
+  color: red;
+  font-family: "Russo One", sans-serif;
+}
+
+.member-name-working {
+  font-size: 20px;
+  font-family: "Kurale", serif;
+}
+
+.icon-container {
+  margin-top: 20px;
+}
+
+.icon {
+  height: 35px;
+  margin: 5px;
+}
+
+.github-icon {
+  height: 45px;
+}
+
+
+/* --min-width: 993px to max-width: 1200px--*/
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .about-heading {
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: "Russo One", sans-serif;
+  }
+
+  .main-container {
+    height: 500px;
+    width: 1100px;
+    margin: 0px auto;
+  }
+
+  .text-image-main-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-container {
+    height: 410px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .about-information-text {
+    font-size: 15px;
+    font-family: "Kurale", serif;
+    border: solid #ffffb3 1px;
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 0 0 10px 1px rgb(37, 35, 35);
+
+  }
+
+  .image-container {
+    height: 410px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .image {
+    height: 410px;
+    width: 500px;
+    border-radius: 10px;
+    border: solid #ffffb3 1px;
+    box-shadow: 5px 5px 10px rgb(37, 35, 35);
+  }
+
+  .our-team-container {
+    height: 500px;
+    width: 1100px;
+    margin: 0px auto;
+  }
+
+  .member-card {
+    height: 300px;
+    width: 270px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(37, 35, 35);
+  }
+
+  .team-member-photos {
+    height: 150px;
+    width: 155px;
+    border-radius: 100px;
+    border: solid black 1px;
+    position: absolute;
+    left: 60px;
+  }
+
+}
+
+
+/* --min-width: 769px to max-width: 992px--*/
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+
+
+  .main-container {
+    height: 500px;
+    width: 750px;
+    margin: 0px auto;
+  }
+
+  .text-image-main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .main-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 700px;
+    margin-top: 90px;
+  }
+
+
+  .our-team-container {
+    height: 1200px;
+    width: 750px;
+    margin: 0px auto;
+  }
+
+  .our-team-heading {
+    text-align: center;
+    margin-top: 650px;
+    font-size: 30px;
+    font-family: "Russo One", sans-serif;
+  }
+
+  .about-information-text {
+    font-size: 20px;
+    font-family: "Kurale", serif;
+    border: solid #ffffb3 1px;
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    width: 700px;
+    padding: 30px;
+    box-shadow: 0 0 10px 1px rgb(37, 35, 35);
+  }
+
+  .image-container {
+    height: 410px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .image {
+    height: 410px;
+    width: 750px;
+    border-radius: 10px;
+    border: solid #ffffb3 1px;
+    box-shadow: 5px 5px 10px rgb(37, 35, 35);
+  }
+}
+
+
+
+/* --min-width: 600px to max-width: 768px--*/
+
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+  .main-container {
+    height: 1000px;
+    width: 600px;
+    margin: 0px auto;
+  }
+
+  .text-image-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .text-container {
+    height: 410px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .about-information-text {
+    font-size: 17px;
+    font-family: "Kurale", serif;
+    border: solid #ffffb3 1px;
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 0 0 10px 1px rgb(37, 35, 35);
+  }
+
+  .image-container {
+    height: 410px;
+    width: 500px;
+    margin: 30px;
+    justify-content: center;
+  }
+
+  .image {
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    border: solid #ffffb3 1px;
+    box-shadow: 5px 5px 10px rgb(37, 35, 35);
+  }
+
+  .our-team-container {
+    height: 1200px;
+    width: 700px;
+    margin: 0px auto;
+    align-items: center;
+  }
+
+  .our-team-heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Russo One", sans-serif;
+  }
+
+  .main-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    width: 600px;
+    margin: 0px auto;
+  }
+}
+
+
+/*-- less than 600px --*/
+
+@media screen and (max-width: 600px) {
+
+  .main-container {
+    height: 1000px;
+    width: 500px;
+    margin: 0px auto;
+  }
+
+  .text-image-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .text-container {
+    height: 410px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .about-information-text {
+    font-size: 13px;
+    font-family: "Kurale", serif;
+    border: solid #ffffb3 1px;
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+    width: 450px;
+    padding: 30px;
+    box-shadow: 0 0 10px 1px rgb(37, 35, 35);
+  }
+
+  .image-container {
+    height: 410px;
+    width: 500px;
+    margin: 30px;
+    justify-content: center;
+  }
+
+  .image {
+    height: 350px;
+    width: 450px;
+    border-radius: 10px;
+    border: solid #ffffb3 1px;
+    box-shadow: 5px 5px 10px rgb(37, 35, 35);
+  }
+
+  .our-team-container {
+    height: 1200px;
+    width: 500px;
+    margin: 0px auto;
+    align-items: center;
+  }
+
+  .our-team-heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Russo One", sans-serif;
+  }
+
+  .main-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    width: 600px;
+    margin: 0px auto;
+  }
+
 }
