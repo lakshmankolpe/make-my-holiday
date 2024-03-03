@@ -183,7 +183,6 @@ body {
     background-color: #cfdef5;
     transition: 0.4s !important;
 
-
 }
 
 .services-card-icon-container {
@@ -885,9 +884,7 @@ body {
     font-size: 30px;
     top: 250px;
     left: 70px;
-
 }
-
 
 .our-speciality-heading {
     font-size: 30px;
@@ -895,14 +892,11 @@ body {
     margin-bottom: 40px;
 
 }
-
-
 .our-services-card {
     height: 170px;
     margin: 15px;
     
     width: 270px;
-    
 }
 
 .services-card-icon-container {
@@ -918,15 +912,12 @@ body {
 
 .our-services-card-icon {
     height: 27px;
-    
-}
 
+}
 .services-card-heading {
     font-size: 18px;
    
 }
-
-
 .explore-maha-heading {
     font-size: 30px;
     margin-top: 30px;
@@ -942,8 +933,6 @@ body {
 .explore-maha-desc {
     font-size: 18px;
 }
-
-
 .popular-city-main-heading {
     font-size: 30px;
     
@@ -954,9 +943,7 @@ body {
 }
 
 .popular-city-card-container {
-
     width: 600px;
-    
 }
 
 .popular-city-img {
@@ -964,22 +951,17 @@ body {
     width: 220px;
     height: 220px;
     border-radius: 10px;
-
 }
 
 .popular-city-img:hover {
 
     width: 230px;
-    
 }
-
 
 .best-place-heading {
     font-size: 30px;
     margin-top: 30px;
-  
 }
-
 .best-places-card-container {
     margin: 10px 0;
 }
@@ -991,14 +973,10 @@ body {
     margin: 10px;
   
 }
-
-
 .best-places-visit-cards:hover {
     padding: 10px;
     box-shadow: 0 0 8px 2px #62aee4;
-
 }
-
 .best-places-visit-img {
     width: 470px;
    height: 260px;
@@ -1007,9 +985,7 @@ body {
 .best-place-visit-card-heading {
     font-size: 20px;
     margin-left: 10px;
- 
 }
-
 .best-places-card-desc {
     font-size: 18px;
    
@@ -1017,27 +993,23 @@ body {
 
 .best-place-visit-btn {
     font-size: 18px;
-  
-}
 
+}
 .best-time-heading {
     bottom: 15px;
   
 }
-/*  */
+
 .top-attraction-heading {
     font-size: 30px;
     margin-top: 40px;
     margin-bottom: 10px;
-    
 }
 
 .top-attraction-container {
     width: 600px;
     margin: 20px auto;
-    
      flex-direction:column;
-    
     align-items: center;
 
 }
@@ -1057,5 +1029,139 @@ body {
     
     margin-top: -1px;
 }
+
+}
+/* media query max width upto 600px */
+@media screen and (max-width: 600px){
+    
+.navbar-sec-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #66c2ff;
+
+}
+
+
+.logo {
+    height: 60px;
+}
+
+.brand-name {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.searchbar {
+    font-size: 17px;
+    width: 100px;
+    
+}
+
+.search-icon {
+    height: 20px;
+}
+
+.login-container {
+    
+    margin: 0 auto;
+    width: 120px;
+    
+}
+
+.sign-up {
+    font-size: 20px;
+   
+}
+
+.login {
+    font-size: 20px;
+   
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.main-navbar-container {
+    width: 100%;
+}
+
+.navbar-items {
+    font-size: 18px;
+    padding:8px;
+}
+
+.header-image {
+    height: 80vh;
+    
+}
+
+.header-heading {
+    font-size: 27px;
+    top: 260px;
+    left: 120px;
+    
+}
+
+
+.our-speciality-heading {
+    font-size: 27px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.our-services-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.our-services-card {
+    height: 190px;
+    width: 330px;
+    margin: 15px;
+}
+
+
+.services-card-icon-container {
+    width: 50px;
+    height: 50px;
+
+}
+
+.our-services-card-icon {
+    height: 30px;
+}
+
+.explore-maha-heading {
+    font-size: 27px;
+
+}
+
+.explore-maha-card {
+    width: 80%;
+    
+}
+
+.explore-maha-desc {
+    font-size: 16px;
+}
+.explore-card-image{
+    width: 90%;
+    display: block;
+    margin: 2px auto;
+    border-radius: 10px;
+}
+
+
+
+
+    
+
 
 }
