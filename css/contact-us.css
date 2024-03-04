@@ -99,7 +99,7 @@ body {
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
    .contact-main-container {
-      background-color: white;
+      background-color: #c7dceb;
       width: 800px;
       height: 600px;
       margin: 50px auto;
@@ -116,7 +116,7 @@ body {
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
    .contact-main-container {
-      background-color: white;
+      background-color: #c7dceb;
       width: 600px;
       height: 500px;
       margin: 50px auto;
@@ -128,7 +128,6 @@ body {
    .contact-heading {
       text-align: center;
       font-size: 35px;
-      height: 20px;
       margin: 25px auto;
       font-family: "Russo One", sans-serif;
    }
@@ -174,7 +173,7 @@ body {
       border: none;
       width: 200px;
       font-size: 20px;
-      background-color: white;
+      background-color: #c7dceb;
    }
 
    .label-text {
@@ -182,13 +181,18 @@ body {
    }
 
    .send-btn {
-      background-color: #66c2ff;
+      background-color: black;
       padding: 8px 25px;
       margin-top: 15px;
       margin-left: 40px;
       border-radius: 8px;
       color: white;
       border: none;
+   }
+
+   .send-btn:hover{
+      box-shadow: 0 0 2px 1px black;
+      font-size: 20px;   
    }
 
 }
@@ -199,7 +203,7 @@ body {
 @media screen and (min-width: 600px) and (max-width: 768px) {
 
    .contact-main-container {
-      background-color: white;
+      background-color: #c7dceb;
       width: 475px;
       height: 500px;
       margin: 50px auto;
@@ -257,7 +261,7 @@ body {
       border: none;
       width: 150px;
       font-size: 15px;
-      background-color: white;
+      background-color: #c7dceb;
    }
 
    .label-text {
@@ -283,7 +287,7 @@ body {
 @media screen and (max-width: 600px) {
 
    .contact-main-container {
-      background-color: white;
+      background-color: #c7dceb;
       width: 400px;
       height: 1100px;
       margin: 50px auto;
