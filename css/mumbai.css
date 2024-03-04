@@ -16,13 +16,13 @@ body{
     position: relative;
 }
 
-.header-heading{
+.city-heading{
     font-size: 55px;
     font-family: "Russo One", sans-serif;
     position: absolute;
     top: 20px;
     left: 43%;
-    color: white;
+    color: black;
 }
 
 .information-about-city-container{
