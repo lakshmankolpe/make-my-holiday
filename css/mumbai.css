@@ -184,6 +184,7 @@ body{
 }
 
 .historic-place-container{
+    height: 60%;
     margin:50px 200px;
     padding: 10px 0;
     background-color: #cfdef5;
@@ -193,7 +194,6 @@ body{
 .historic-img{
     display: flex;
     justify-content: center;
-
 
 }
 
@@ -206,6 +206,7 @@ body{
 .historic-place-info{
     font-size: 20px;
     margin: 10px 100px;
+    padding: 0 30px;
     text-align: justify;
     font-family: "Kurale", serif ;
 }
@@ -319,7 +320,6 @@ body{
     text-align: center;
     margin-top: 70px;
     margin-bottom: 50px;
-    border-top: 2px solid gray;
     border-bottom: 2px solid gray;
     font-family: "Black Ops One", system-ui;
 }
@@ -492,8 +492,8 @@ body{
 }
 
 .street-food-container{
-    height: 500px;
-    width: 800px;
+    height: 550px;
+    width: 700px;
     margin:50px 100px;
     padding:  10px ;
     background-color: #cfdef5;
@@ -502,13 +502,13 @@ body{
 
 .street-food-image{
     width: 40%;
-    margin: 10px 10px ;
+    margin: 5px auto ;
     box-shadow: 0 0 5px 5px grey;
 }
 
 .street-food-img{
     display: flex;
-    justify-content: center;
+   
 }
 
 .street-food-info{
