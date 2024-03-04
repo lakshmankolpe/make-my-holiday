@@ -100,8 +100,8 @@ body {
 
    .contact-main-container {
       background-color: #c7dceb;
-      width: 800px;
-      height: 600px;
+      width: 750px;
+      height: 450px;
       margin: 50px auto;
       padding: 10px;
       box-shadow: 0 0 10px 1px black;
@@ -118,7 +118,7 @@ body {
    .contact-main-container {
       background-color: #c7dceb;
       width: 600px;
-      height: 500px;
+      height: 450px;
       margin: 50px auto;
       padding: 50px;
       box-shadow: 0 0 10px 1px black;
@@ -205,7 +205,7 @@ body {
    .contact-main-container {
       background-color: #c7dceb;
       width: 475px;
-      height: 500px;
+      height: 350px;
       margin: 50px auto;
       padding: 50px;
       box-shadow: 0 0 10px 1px black;
@@ -269,8 +269,8 @@ body {
    }
 
    .send-btn {
-      background-color: #66c2ff;
-      padding: 7px 22px;
+      background-color:black;
+      padding: 5px 20px;
       margin-top: 30px;
       margin-left: 40px;
       border-radius: 8px;
@@ -288,8 +288,8 @@ body {
 
    .contact-main-container {
       background-color: #c7dceb;
-      width: 400px;
-      height: 1100px;
+      width: 380px;
+      height: 950px;
       margin: 50px auto;
       padding: 30px;
       box-shadow: 0 0 10px 1px black;
