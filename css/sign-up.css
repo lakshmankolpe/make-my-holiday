@@ -29,6 +29,7 @@ body {
     position: absolute;
     top: 40px;
     left: 450px;
+    box-shadow: 0 0 5px 3px gray;
 }
 
 .main-heading {
@@ -56,6 +57,7 @@ border-radius: 15px;
 width: 200px;
 border: none;
 
+
 }
 .bottom-icon{
     font-size: 25px;
@@ -70,4 +72,10 @@ border: none;
     padding: 10px 24px;
     font-size: 15px;
     margin-top: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    font-size:16px;
+    padding:12px 26px ;
+    transition: 0.5s;
 }
