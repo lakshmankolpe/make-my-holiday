@@ -12,3 +12,394 @@
 /* @media screen and (min-width: 769px) and (max-width: 992px) */
 /* @media screen and (min-width: 600px) and (max-width: 768px) */
 /* @media screen and (min-width: 600px) */
+
+
+/* navbar css */
+.navbar-sec-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #66c2ff;
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+.brand-name {
+    margin-left: 20px;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.searchbar-container {
+    background-color: white;
+    border-radius: 30px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.searchbar {
+    font-size: 22px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+
+}
+
+.searchbar:focus {
+    outline: none;
+}
+
+.search-icon {
+    height: 25px;
+
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    margin-left: 200px;
+
+}
+
+
+.sign-up {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.login {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* main navbar section 2 */
+.nav-container {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffbf80;
+
+}
+
+.main-navbar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1100px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.navbar-items {
+    font-size: 22px;
+    padding: 15px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Electrolize", sans-serif;
+    background-color: #ffbf80;
+    
+
+}
+/* footer css */
+
+.footer-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(24, 22, 22);
+    color: white;
+}
+
+.footer-img {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+
+}
+
+.footer-quick-links {
+
+    height: 180px;
+    width: 200px;
+    color: white;
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: left;
+   
+}
+.footer-items{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-useful-link {
+    height: 180px;
+    width: 200px;
+    color: white;
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.footer-contact {
+    height: 180px;
+    width: 200px;
+    color: white;
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.footer-icon {
+    font-size: 26px;
+    margin: 10px;
+
+}
+
+/* media query */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .brand-name {
+        font-size: 35px;
+
+    }
+
+    .searchbar-container {
+        padding-right: 20px;
+        margin-left: 30px;
+
+    }
+
+    .searchbar {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .login-container {
+
+        margin-left: 40px;
+    }
+
+    .main-navbar-container {
+        width: 1000px;
+
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .logo {
+        height: 70px;
+    }
+
+    .brand-name {
+        margin-left: 15px;
+        font-size: 33px;
+
+    }
+
+
+    .searchbar-container {
+        padding-right: 10px;
+        margin-left: 30px;
+
+    }
+
+    .searchbar {
+        font-size: 18px;
+        width: 150px;
+
+    }
+
+    .search-icon {
+        height: 20px;
+
+    }
+
+    .login-container {
+
+        width: 130px;
+        margin-left: 50px;
+
+    }
+
+    .sign-up {
+        font-size: 20px;
+    }
+
+    .login {
+        font-size: 20px;
+
+    }
+
+
+    .main-navbar-container {
+        width: 790px;
+
+    }
+
+    .navbar-items {
+        font-size: 20px;
+
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logo {
+        height: 65px;
+    }
+
+    .brand-name {
+        margin-left: 5px;
+        font-size: 34px;
+    }
+
+    .searchbar-container {
+        padding-right: 20px;
+        margin-left: 10px;
+        position: relative;
+        border: 1px solid gray;
+
+    }
+
+    .searchbar {
+        font-size: 18px;
+        width: 150px;
+        padding: 8px;
+
+    }
+
+    .search-icon {
+        height: 22px;
+        position: absolute;
+        left: 150px;
+
+    }
+
+    .login-container {
+
+        width: 120px;
+        margin-left: 10px;
+
+    }
+
+    .sign-up {
+        font-size: 18px;
+    }
+
+    .login {
+        font-size: 18px;
+    }
+
+    .nav-container {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: #ffbf80;
+    }
+
+    .main-navbar-container {
+
+        width: 100%;
+    }
+
+    .navbar-items {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar-sec-1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #66c2ff;
+
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .brand-name {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+
+    .searchbar {
+        font-size: 17px;
+        width: 100px;
+
+    }
+
+    .search-icon {
+        height: 20px;
+    }
+
+    .login-container {
+
+        margin: 0 auto;
+        width: 120px;
+
+    }
+
+    .sign-up {
+        font-size: 20px;
+
+    }
+
+    .login {
+        font-size: 20px;
+
+    }
+
+    .nav-container {
+        width: 100%;
+    }
+
+    .main-navbar-container {
+        width: 100%;
+    }
+
+    .navbar-items {
+        font-size: 18px;
+        padding: 8px;
+    }
+}

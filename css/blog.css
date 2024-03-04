@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-body{
+body {
     padding: 0px;
     margin: 0px;
-    background-color:  #ffffe6;
+    background-color: #ffffe6;
 }
-.blog-page-heading{
+
+.blog-page-heading {
     background-color: tomato;
     text-align: center;
     font-size: 40px;
@@ -14,40 +15,152 @@ body{
     margin-top: 70px;
     margin-bottom: 70px;
     border-radius: 30px;
+    font-family: "Black Ops One", system-ui;
 }
-.first-div-videos-main-container{
+
+.first-div-videos-main-container {
     display: flex;
     justify-content: center;
-    height: 450px;
-    width: 1350px;
     margin: 0 auto;
-   margin-bottom: 20px;
+    height: 450px;
+    width: 1300px;
+    margin-bottom: 10px;
 
 }
-.embed-videos{
+
+.embed-videos {
     height: 250px;
     width: 400px;
     border-radius: 20px;
 }
-.video-discription-text{
+
+.video-discription-text {
     font-size: 14px;
     font-family: "Kurale", serif;
+
 }
-.first-div-videos-container{
+
+.first-div-videos-container {
     height: 410px;
     width: 400px;
-    margin: 20px;   
+    margin: 20px;
 }
-.btn{
+
+.btn {
     padding: 5px 12px;
     margin-left: 290px;
     border-radius: 6px;
     background-color: black;
     color: white;
     border: none;
-    
+
 }
-.anchor-tag-btn{
+
+.anchor-tag-btn {
     text-decoration: none;
     color: white;
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .first-div-videos-main-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 900px;
+        width: 900px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .first-div-videos-main-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 980px;
+        width: 800px;
+        margin-bottom: 10px;
+    }
+
+    .first-div-videos-container {
+        height: 450px;
+        width: 350px;
+        margin: 10px;
+    }
+
+    .embed-videos {
+        height: 250px;
+        width: 350px;
+        border-radius: 20px;
+    }
+
+    .btn {
+        padding: 5px 12px;
+        margin-left: 230px;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        border: none;
+
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .first-div-videos-main-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 1450px;
+        width: 600px;
+        margin-bottom: 10px;
+
+    }
+
+    .first-div-videos-container {
+        height: 430px;
+        width: 400px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .first-div-videos-main-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 1450px;
+        width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .first-div-videos-container {
+        height: 430px;
+        width: 350px;
+        margin: 10px;
+    }
+
+    .embed-videos {
+        height: 250px;
+        width: 350px;
+        border-radius: 20px;
+    }
+
+    .btn {
+        padding: 5px 12px;
+        margin-left: 230px;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        border: none;
+
+    }
 }

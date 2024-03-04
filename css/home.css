@@ -12,7 +12,20 @@ body {
     /* background-color: #cfdef5; */
     background-color: #ffffe6;
 
+}
 
+/* temporary button */
+.explore-visit-btn{
+    font-size:20px;
+    padding:5px 20px;
+    background-color: tomato;
+    border-radius: 30px;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    
 }
 
 .navbar-sec-1 {
@@ -154,9 +167,6 @@ body {
     margin-bottom: 70px;
     background-color: tomato;
     border-radius: 30px;
-    /* font-family: "Electrolize", sans-serif; */
-
-    /* font-family: "Russo One", sans-serif; */
     font-family: "Black Ops One", system-ui;
 
 }
@@ -469,8 +479,12 @@ body {
     margin: 10px;
     padding: 20px 20px;
     text-align: left;
+   
 }
-
+.footer-items{
+    text-decoration: none;
+    color: white;
+}
 
 .footer-useful-link {
     height: 180px;
