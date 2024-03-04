@@ -251,7 +251,7 @@ align-items: center;
 
 
   .main-container {
-    height: 500px;
+    height: 1000px;
     width: 750px;
     margin: 0px auto;
   }
@@ -262,6 +262,45 @@ align-items: center;
     flex-direction: column;
 
   }
+
+  .about-information-text {
+    font-size: 20px;
+    font-family: "Kurale", serif;
+    border: solid #ffffb3 1px;
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    width: 700px;
+    padding: 30px;
+    box-shadow: 0 0 10px 1px rgb(37, 35, 35);
+
+  }
+  .text-container {
+    height: 400px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .image-container {
+    height: 410px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .image {
+    height: 410px;
+    width: 750px;
+    border-radius: 10px;
+    border: solid #ffffb3 1px;
+    box-shadow: 5px 5px 10px rgb(37, 35, 35);
+  }
+
+
+
 
   .main-card-container {
     display: flex;
@@ -282,38 +321,14 @@ align-items: center;
 
   .our-team-heading {
     text-align: center;
-    margin-top: 650px;
-    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 40px;
     font-family: "Russo One", sans-serif;
+
   }
 
-  .about-information-text {
-    font-size: 20px;
-    font-family: "Kurale", serif;
-    border: solid #ffffb3 1px;
-    background-color: white;
-    border-radius: 10px;
-    height: 350px;
-    width: 700px;
-    padding: 30px;
-    box-shadow: 0 0 10px 1px rgb(37, 35, 35);
-  }
-
-  .image-container {
-    height: 410px;
-    width: 750px;
-    display: flex;
-    align-items: center;
-    margin: 30px;
-  }
-
-  .image {
-    height: 410px;
-    width: 750px;
-    border-radius: 10px;
-    border: solid #ffffb3 1px;
-    box-shadow: 5px 5px 10px rgb(37, 35, 35);
-  }
+  
 }
 
 
@@ -415,7 +430,7 @@ align-items: center;
   }
 
   .text-container {
-    height: 410px;
+    height: 350px;
     width: 500px;
     display: flex;
     align-items: center;
@@ -435,15 +450,15 @@ align-items: center;
   }
 
   .image-container {
-    height: 410px;
+    height: 350px;
     width: 500px;
     margin: 30px;
     justify-content: center;
   }
 
   .image {
-    height: 350px;
-    width: 450px;
+    height: 280px;
+    width: 500px;
     border-radius: 10px;
     border: solid #ffffb3 1px;
     box-shadow: 5px 5px 10px rgb(37, 35, 35);
