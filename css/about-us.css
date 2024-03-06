@@ -24,8 +24,12 @@ body {
 }
 
 .main-container {
-  height: 600px;
-  width: 1500px;
+  height: 480px;
+  width: 1400px;
+  margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .text-image-main-container {
@@ -33,7 +37,8 @@ body {
 }
 
 .text-container {
-  height: 500px;
+  height: 400px;
+  width: 630px;
   display: flex;
   align-items: center;
   margin: 20px;
@@ -41,7 +46,7 @@ body {
 
 .about-information-text {
   padding: 10px;
-  font-size: 20px;
+  font-size: 19px;
   font-family: "Kurale", serif;
   border: solid #ffffb3 1px;
   background-color: white;
@@ -53,23 +58,23 @@ body {
 }
 
 .image-container {
-  height: 500px;
-  width: 650px;
+  height: 400px;
+  width: 630px;
   display: flex;
   align-items: center;
   margin: 20px;
 }
 
 .image {
-  height: 410px;
-  width: 650px;
+  height: 400px;
+  width: 700px;
   border-radius: 10px;
   border: solid #ffffb3 1px;
   box-shadow: 5px 5px 10px rgb(37, 35, 35);
 }
 
 .our-team-container {
-  height: 500px;
+  height: 400px;
   width: 1400px;
   margin: 0px auto;
 }
@@ -84,6 +89,7 @@ body {
   border-radius: 30px;
   font-family: "Black Ops One", system-ui;
 }
+
 
 .main-card-container {
   display: flex;
