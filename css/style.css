@@ -121,9 +121,12 @@
     font-weight: bold;
     font-family: "Electrolize", sans-serif;
     background-color: #ffbf80;
-    
-
 }
+
+.visit-place-item{
+    background-color: white;
+}
+
 /* footer css */
 
 .footer-container {
